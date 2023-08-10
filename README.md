@@ -1,5 +1,7 @@
 # promptui
 
+> **_NOTE:_** This fork was created as the original manifoldco/promptui has been abandoned. This is only intended to be used by Taurus internal CLI applications.
+
 Interactive prompt for command-line applications.
 
 We built Promptui because we wanted to make it easy and fun to explore cloud
@@ -8,10 +10,10 @@ services with [manifold cli](https://github.com/manifoldco/manifold-cli).
 [Code of Conduct](./CODE_OF_CONDUCT.md) |
 [Contribution Guidelines](./.github/CONTRIBUTING.md)
 
-[![GitHub release](https://img.shields.io/github/tag/manifoldco/promptui.svg?label=latest)](https://github.com/manifoldco/promptui/releases)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/manifoldco/promptui)
+[![GitHub release](https://img.shields.io/github/tag/manifoldco/promptui.svg?label=latest)](https://github.com/taurusgroup/promptui/releases)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/taurusgroup/promptui)
 [![Travis](https://img.shields.io/travis/manifoldco/promptui/master.svg)](https://travis-ci.org/manifoldco/promptui)
-[![Go Report Card](https://goreportcard.com/badge/github.com/manifoldco/promptui)](https://goreportcard.com/report/github.com/manifoldco/promptui)
+[![Go Report Card](https://goreportcard.com/badge/github.com/taurusgroup/promptui)](https://goreportcard.com/report/github.com/taurusgroup/promptui)
 [![License](https://img.shields.io/badge/license-BSD-blue.svg)](./LICENSE.md)
 
 ## Overview
@@ -31,7 +33,7 @@ Promptui has two main input modes:
 - `Select` provides a list of options to choose from. Select supports
   pagination, search, detailed view and custom templates.
 
-For a full list of options check [GoDoc](https://godoc.org/github.com/manifoldco/promptui).
+For a full list of options check [GoDoc](https://godoc.org/github.com/taurusgroup/promptui).
 
 ## Basic Usage
 
@@ -45,7 +47,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/manifoldco/promptui"
+	"github.com/taurusgroup/promptui"
 )
 
 func main() {
@@ -81,7 +83,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/manifoldco/promptui"
+	"github.com/taurusgroup/promptui"
 )
 
 func main() {
@@ -104,4 +106,4 @@ func main() {
 
 ### More Examples
 
-See full list of [examples](https://github.com/manifoldco/promptui/tree/master/_examples)
+See full list of [examples](https://github.com/taurusgroup/promptui/tree/master/_examples)
